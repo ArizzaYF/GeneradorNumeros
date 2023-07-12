@@ -40,6 +40,7 @@ footer {
     text-align: center;
     padding: 40px;
     font-family: 'Agdasima', sans-serif;
+    margin-top: 100%;
 }
 
 .copyright {
@@ -53,9 +54,16 @@ footer {
 @media screen and (max-width:480px){
     h1{
         text-align: center;
+        font-size: 18px;
+    }
+    body{
+        width: 768px;
+        height: auto;
+        font-size: 18px;
     }
     button, #numberContainer, footer{
-        width: auto;      
+        width: auto;    
+        font-size: 18px; 
     }
     
 }
